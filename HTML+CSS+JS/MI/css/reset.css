@@ -1,0 +1,49 @@
+/* common CSS */
+
+*{ margin: 0; padding: 0;}
+ul, ol{ list-style: none;}
+img{ display: block;}
+a{ text-decoration: none; color: #333333;}
+h1, h2, h3{ font-size: 16px;}
+body{ font-family: Arial;}
+
+.l{ float: left;}
+.r{ float: right;}
+.clear::after{ content: ""; display: block; clear: both;}
+.container{ width: 1226px; margin: 0 auto; position: relative;}
+.container-fluid{ width: 100%;}
+
+/* header */
+
+header{ background-color: rgb(51, 51, 51); height: 40px; border-bottom: 1px solid rgb(223, 223, 223); font-size: 12px;}
+header .header_left{line-height: 40px;}
+header .header_left a{ color: #b0b0b0;}
+header .header_left a:hover{ color: #fff;}
+header .header_left span{color: #424242; margin: 0 3px;}
+
+header .header_right .cart{ width: 120px; height: 40px; margin-left: 15px; background-color: #424242; text-align: center;}
+header .header_right .cart:hover{ background-color: #fff; color: #ff7f52;}
+header .header_right .cart a{display: block; width: 100%; height: 100%; color: #b0b0b0; line-height: 40px;}
+header .header_right .cart a:hover{ color: #ff7f52;}
+header .header_right .cart i{ font-size: 18px;}
+header .header_right .users{ line-height: 40px; color: #b0b0b0;}
+header .header_right .users a{ color: #b0b0b0;}
+header .header_right .users span{ color: #424242; margin: 0 3px;}
+header .header_right .users a:hover{ color: #fff;}
+
+/* header end*/
+
+/* nav */
+nav{ height: 100px;}
+nav .logo img{ width: 55px; height: 55px; margin-top:22px; background-color: #ff6700; padding: 3px;}
+nav .nav_btn{ font-size: 16px; line-height: 100px; width: 868px; height: 100px; margin: 0; padding-left:30px; text-align: center; box-sizing: border-box;}
+nav .nav_btn a{ height: 100%; padding: 26px 18px 38px; }
+nav .nav_btn a:hover{ color: #ff7f52;}
+nav .search{ width: 296px; height: 50px; margin-top:25px;}
+nav .search input{width: 223px; height: 50px; border: 1px solid #e0e0e0; border-right: none;}
+nav .search label{ width: 0; height: 0;}
+nav .search a{ border: 1px solid #e0e0e0; display:inline-block; width: 52px; height: 50px; text-align: center; position: relative; top: 4px; right: 4px;}
+nav .search i{  font-size: 24px; font-weight: bold; line-height: 50px;}
+
+/* nav end*/
+
